@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+/*navbar*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  font-size: 30px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.logo span {
+  color: red;
+  font-weight: 900;
+}
+.logo-box {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo-box .fa-brands {
+  font-size: 40px;
+  color: red;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-right: 20px;
+  gap: 30px;
+}
+.list-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+  font-weight: 400;
+  transition: all 0.4s ease-in;
+}
+.list-item a:hover {
+  color: red;
+}
+.search-bar,
+.active {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 40px;
+  gap: 20px;
+  transition: all 0.4s ease-in-out;
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+.search-input {
+  width: 100%;
+  padding: 25px 10px;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+.search-bar .fa-solid {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.about {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 100px 20px;
+}
+.left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 20px;
+}
+.right {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.info {
+  margin-left: 30px;
+  display: flex;
+}
+.about-title {
+  font-size: 150px;
+}
+.about-title span {
+  color: red;
+}
+.job {
+  font-size: 30px;
+  color: gray;
+}
+.my-image {
+  width: 50%;
+  border-radius: 100px;
+}
+.description {
+  font-size: 20px;
+  margin-left: 30px;
+  color: rgb(129, 129, 129);
+}
+.learn-more {
+  font-size: 20px;
+  padding: 20px 40px;
+  margin-left: 30px;
+  outline: none;
+  border: 2px white solid;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+.learn-more:hover {
+  background-color: black;
+  color: white;
+  border: 2px white solid;
+}
+
+.arts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  margin-left: 100px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 15px;
+}
+.box {
+  border: 10px black ridge;
+  transition: all 0.4s ease-in-out;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.art-image {
+  width: 100%;
+}
+.box:hover {
+  border: 10px lightgray ridge;
+  scale: 1.1;
+}
+.image-title {
+  font-size: 30px;
+}
+.image-price {
+  font-size: 20px;
+}
+
+.arts h1 {
+  font-size: 60px;
+  color: black;
+}
+.arts h1 span {
+  color: red;
+}
+
+.contact {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-title {
+  font-size: 60px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  margin-top: 6%;
+}
+.contact-title span {
+  color: red;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.form-group {
+  position: relative;
+  width: 80%;
+}
+.form-group i {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 20px;
+  color: red;
+}
+.form-control {
+  padding: 15px 70px;
+  width: 100%;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background-color: #e0e0e0;
+}
+
+.btn {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background-color: #e0e0e0;
+  color: red;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: red;
+  color: #e0e0e0;
+}
+.right-contact {
+  width: 100%;
+}
+.left-contact {
+  width: 100%;
+}
+.idea-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  gap: 20px;
+}
+.idea-container img {
+  width: 70%;
+  border-radius: 20px;
+}
+.idea-container h1 {
+  font-size: 40px;
+}
+.idea-container p {
+  font-size: 20px;
+  width: 70%;
+  text-wrap: wrap;
+  text-align: justify;
+}
+.idea-container h1 span {
+  color: red;
+}
+.footer {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  background-color: black;
+  position: relative;
+}
+.footer p {
+  font-size: 28px;
+  color: white;
+  padding: 20px;
+}
+.footer p span {
+  color: red;
+}
+.footer i {
+  color: red;
+  font-size: 30px;
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+  top: 30%;
+}
+.red-idea {
+  color: red;
+  font-weight: 600;
+}

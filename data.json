@@ -1,0 +1,62 @@
+[
+  {
+    "url": "./images/art9.jpg",
+    "title": "Amazing Face",
+    "price": 100
+  },
+  {
+    "url": "./images/art.jpg",
+    "title": "Beautiful Girl",
+    "price": 100
+  },
+  {
+    "url": "./images/art7.jpg",
+    "title": "Woman's Face",
+    "price": 100
+  },
+  {
+    "url": "./images/art10.jpg",
+    "title": "People",
+    "price": 100
+  },
+  {
+    "url": "./images/gray-art.jpg",
+    "title": "Gray Art",
+    "price": 100
+  },
+  {
+    "url": "./images/art1.jpg",
+    "title": "Paint",
+    "price": 100
+  },
+  {
+    "url": "./images/art2.jpg",
+    "title": "Eye",
+    "price": 100
+  },
+  {
+    "url": "./images/art3.jpg",
+    "title": "City",
+    "price": 100
+  },
+  {
+    "url": "./images/art4.jpg",
+    "title": "Night",
+    "price": 100
+  },
+  {
+    "url": "./images/art5.jpg",
+    "title": "Piano",
+    "price": 100
+  },
+  {
+    "url": "./images/art6.jpg",
+    "title": "Paris",
+    "price": 100
+  },
+  {
+    "url": "./images/art8.jpg",
+    "title": "Mountains",
+    "price": 100
+  }
+]

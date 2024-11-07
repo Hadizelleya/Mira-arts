@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mira's Arts</title>
+  </head>
+  <body>
+    <!--nav bar-->
+    <nav id="home" class="navbar">
+      <div class="logo-box">
+        <i class="fa-brands fa-mix"></i>
+        <h1 class="logo">Mira's <span>Arts</span></h1>
+      </div>
+      <ul class="menu">
+        <li class="list-item"><a href="#home">Home</a></li>
+        <li class="list-item"><a href="#about">About Me</a></li>
+        <li class="list-item"><a href="#gallery">Gallery</a></li>
+        <li class="list-item"><a href="#contact">Contact</a></li>
+        <li class="list-item">
+          <a href="#"
+            ><i id="searchIcon" class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="search-bar hidden">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input
+        id="search"
+        class="search-input"
+        placeholder="Search..."
+        type="search"
+      />
+      <i id="searchClose" class="fa-solid fa-x"></i>
+    </div>
+
+    <!--about section-->
+    <section id="about" class="about">
+      <div class="left">
+        <div class="info">
+          <h1 class="about-title"><span>Mira</span> Issa</h1>
+          <p class="job">Artist</p>
+        </div>
+        <p class="description">
+          As a skilled drawing artist, I have a keen eye for detail and a deep
+          appreciation for the expressive power of line, form, and texture. My
+          work demonstrates a strong foundation in both traditional and
+          contemporary techniques, allowing me to bring depth, emotion, and
+          movement to my drawings. I am adept at using various media—pencil,
+          ink, charcoal, and digital tools—to capture intricate details and
+          create dynamic compositions that resonate with viewers. Through years
+          of practice, I have honed my ability to translate complex ideas into
+          compelling visual stories, making each piece a unique reflection of my
+          artistic vision and technical expertise. My passion for art drives me
+          to continually refine my skills and experiment with new approaches,
+          ensuring that my work remains fresh, versatile, and impactful.
+        </p>
+        <button class="learn-more">
+          Learn More! <span><i class="bi bi-arrow-right"></i></span>
+        </button>
+      </div>
+      <div class="right">
+        <img class="my-image" src="./images/artist1.jpg" alt="my iamge" />
+        <img class="my-image" src="./images/artist3.jpg" alt="my iamge" />
+      </div>
+    </section>
+
+    <!--gallery section-->
+    <section id="gallery" class="arts">
+      <h1>Check Out <span>My Gallery!</span></h1>
+      <div class="container"></div>
+    </section>
+
+    <!-- Contact -->
+    <h1 class="contact-title">Contact <span>Me</span></h1>
+    <section id="contact" class="contact">
+      <div class="left-contact">
+        <div class="idea-container">
+          <img src="./images/art-idea.jpg" alt="idea" />
+          <h1><span>Art</span> Ideas</h1>
+          <p>
+            I'm reaching out to invite you to share your creative ideas,
+            artworks, or even thoughts on art through email. Whether it’s a
+            sketch, a painting, or an idea for a collaborative project, I’d love
+            to hear from you. Art thrives when shared, and bringing together
+            diverse perspectives helps us all grow and inspire each other in new
+            ways. Your contribution, no matter how big or small, could spark
+            something truly remarkable. Please feel free to send over any ideas
+            or pieces you’re excited about,<span class="red-idea">
+              I can’t wait to see what we can create together!</span
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="right-contact">
+        <form action="index.html" class="contact-form">
+          <div class="form-group">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="form-control"
+              placeholder="Name"
+              required
+            />
+            <i class="fa fa-user"></i>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              name=""
+              id=""
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+            <i class="fa fa-envelope"></i>
+          </div>
+
+          <div class="form-group">
+            <input
+              type="text"
+              name=""
+              id=""
+              class="form-control"
+              placeholder="Subject"
+              required
+            />
+            <i class="fa fa-book"></i>
+          </div>
+
+          <div class="form-group">
+            <textarea
+              type="text"
+              name=""
+              id=""
+              class="form-control"
+              rows="8"
+              placeholder="Message"
+              required
+            ></textarea>
+            <i class="fa fa-commenting"></i>
+          </div>
+
+          <button type="submit" class="btn">Send Me Your Ideas Now!</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>Copy Rights &copy; <span> Mira Issa</span></p>
+      <a href="#home"><i id="goUp" class="fa-solid fa-circle-up"></i></a>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
